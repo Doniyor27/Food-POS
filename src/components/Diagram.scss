@@ -1,0 +1,67 @@
+.most-ordered-tops {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.diagram-top {
+  border-bottom: 1px solid #393C49;
+}
+
+.diagram-wrap {
+  background: #1F1D2B;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.diagram-bottom {
+  display: flex;
+  padding: 32px;
+  border-radius: 0 0 8px 8px;
+}
+
+.first-row {
+  display: flex;
+  margin-top: 17px;
+}
+
+.diagram-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.diagram-info2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #ABBBC2;
+}
+
+.color-div {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FF7CA3;
+  margin-right: 9px;
+}
+
+.diagram-side {
+  margin-right: 12px;
+}
+
+.novvot {
+  background: #FFB572;
+}
+
+.blue {
+  background: #65B0F6;
+}

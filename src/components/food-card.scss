@@ -1,0 +1,64 @@
+.cards-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  height: 545px;
+  overflow-y: scroll;
+}
+
+.cards-part::-webkit-scrollbar {
+  display: none;
+}
+
+.card-wrap {
+  background: #1F1D2B;
+  border-radius: 16px;
+  width: 192px;
+  height: 226px;
+  display: inline-block;
+  margin-right: 28px;
+  margin-bottom: 58px;
+}
+
+.card-img {
+  width: 135px;
+  height: 135px;
+  margin-top: -37px;
+  margin-left: 30px;
+}
+
+.food-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 14px;
+  width: 144px;
+  margin: auto;
+}
+
+.food-price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+.food-aviable {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #ABBBC2;
+  margin-top: 4px;
+}
+
+.mtop {
+  margin-top: 50px;
+}

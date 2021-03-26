@@ -1,0 +1,102 @@
+.settings-btn {
+  display: flex;
+  padding: 24px;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(234, 124, 105, 0.26);
+
+    .btn-icons {
+      fill: #EA7C69;
+    }
+
+    .btn-title {
+      color: #EA7C69;
+    }
+  }
+
+  &:hover::after {
+    content: '';
+    width: 4px;
+    height: 39px;
+    display: inline-block;
+    background: #EA7C69;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 28px;
+  }
+
+  &:focus {
+    background: rgba(234, 124, 105, 0.26);
+
+    .btn-icons {
+      fill: #EA7C69;
+    }
+
+    .btn-title {
+      color: #EA7C69;
+    }
+  }
+
+  &:focus::after {
+    content: '';
+    width: 4px;
+    height: 39px;
+    display: inline-block;
+    background: #EA7C69;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 28px;
+  }
+
+  &:active {
+    background: rgba(234, 124, 105, 0.26);
+
+    .btn-icons {
+      fill: #EA7C69;
+    }
+
+    .btn-title {
+      color: #EA7C69;
+    }
+  }
+
+  &:active::after {
+    content: '';
+    width: 4px;
+    height: 39px;
+    display: inline-block;
+    background: #EA7C69;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 28px;
+  }
+}
+
+.btn-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.btn-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+  margin-top: 4px;
+}
+
+.btn-icons {
+  width: 13px !important;
+  height: 13px !important;
+  fill: #ABBBC2;
+  margin-right: 15px;
+}

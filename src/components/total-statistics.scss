@@ -1,0 +1,73 @@
+.st-wrapper {
+  display: inline-block;
+  background: #1F1D2B;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 143px;
+  margin-right: 24px;
+
+  &:nth-child(3) {
+    margin-right: 0;
+  }
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  width: 38px;
+  height: 38px;
+}
+
+.card-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+}
+
+.st-count {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #50D1AA;
+  margin-left: 12px;
+}
+
+.st-count-down {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FF7CA3;
+  margin-left: 12px;
+}
+
+.money-count {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+.count-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ABBBC2;
+  margin-top: 8px;
+}
+
+.card-holder {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+

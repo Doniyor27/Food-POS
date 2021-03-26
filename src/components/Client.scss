@@ -1,0 +1,50 @@
+.client-img {
+  width: 32px;
+  height: 32px;
+}
+
+.client-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin-left: 16px;
+
+}
+
+.food-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+}
+
+.food-cost {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin-right: 100px;
+}
+
+.status {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #50D1AA;
+  background: rgba(107, 226, 190, 0.24);
+  border-radius: 30px;
+  padding: 4px 12px;
+}
+
+.client-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}

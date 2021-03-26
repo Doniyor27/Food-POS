@@ -1,0 +1,36 @@
+.agrigator {
+  display: flex;
+}
+
+.left-side{
+  padding: 24px;
+  padding-bottom: 0;
+  padding-top: 30px;
+  width: 660px;
+}
+
+.right-aside {
+  width: 380px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin-bottom: 24px;
+}
+
+.left-side-header {
+  border-bottom: 1px solid #393C49;
+}
+

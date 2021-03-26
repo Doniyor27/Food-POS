@@ -1,0 +1,49 @@
+.order-bottom-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discunt-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+
+.discont-amount {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.order-bottom-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.order-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FAFAFA;
+  background: #EA7C69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
+  padding: 14px 116px;
+  outline: none;
+  border: none;
+  margin-top: 42px;
+  width: 100%;
+}
+
+.order-bottom-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}

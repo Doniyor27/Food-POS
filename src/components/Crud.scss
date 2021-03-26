@@ -1,0 +1,106 @@
+.crud-wrap {
+  border-top: 1px solid #393C49;
+  border-bottom: 1px solid #393C49;
+  margin-top: 24px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.crud-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.crud-top-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.crud-info {
+  margin-left: 6px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+
+.crud-img {
+  width: 41px;
+  height: 41px;
+}
+
+.crud-count {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 10px 17px;
+  margin-left: 61px;
+}
+
+.total-cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: right;
+  color: #FFFFFF;
+  margin-left: 21px;
+}
+
+.crud-bottom-part {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crud-textarea {
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  resize: none;
+  outline: none;
+  padding: 8px 93px 0px 14px;
+  width: 417px;
+}
+
+.crud-textarea::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  margin-top: 5px;
+}
+
+.crud-delete {
+  display: inline-block;
+  border: 1px solid #EA7C69;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 12px 13px;
+}

@@ -1,0 +1,21 @@
+.set-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.set-header-wrap {
+  padding: 24px 24px 13px 24px;
+}
+
+.set-header-top-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.set-header-bottom {
+  margin-top: 34px;
+}
